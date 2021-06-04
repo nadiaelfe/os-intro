@@ -54,58 +54,58 @@ gdb ./calcul
 
 1. В домашнем каталоге создала подкаталог ~/work/os/lab_prog.
 
-![каталог](image/1.jpg)
+![каталог](1.jpg)
 
 2. Создала в нём файлы: calculate.h, calculate.c, main.c.
 
-![calculate.h файл](image/2.3.jpg)
+![calculate.h файл](2.3.jpg)
 
-![calculate.c файл](image/2.1.jpg)
+![calculate.c файл](2.1.jpg)
 
-![main.c файл](image/2.4.jpg)
+![main.c файл](2.4.jpg)
 
 3. Выполнилаа компиляцию программы посредством gcc
 
-![компиляция gcc](image/3.jpg)
+![компиляция gcc](3.jpg)
 
 4. Исправила синтаксические ошибки в файле main.c (удалила & передала  operator в линии scanf("%s",&Operation);)
 
 5. Создала Makefile 
 
-![Makefile](image/5.jpg)
+![Makefile](5.jpg)
 
 6. С помощью gdb выполнил отладку программы calcul, (перед использованием gdb исправьте Makefile)
 
 - Запустила отладчик GDB, загружил в него программу для отладки: gdb ./calcul
 
-![gdb](image/6.1.jpg)
+![gdb](6.1.jpg)
 
 
-![run](image/6.2.jpg)
+![run](6.2.jpg)
 
-![list](image/6.3.jpg)
+![list](6.3.jpg)
 
-![list](image/6.4.jpg)
+![list](6.4.jpg)
 
-![list](image/6.5.jpg)
+![list](6.5.jpg)
 
-![list](image/6.6.jpg)
+![list](6.6.jpg)
 
-![breakpoints](image/6.7.jpg)
+![breakpoints](6.7.jpg)
 
-![run](image/6.8.jpg)
+![run](6.8.jpg)
 
-![print](image/6.9.jpg)
+![print](6.9.jpg)
 
-![display](image/6.10.jpg)
+![display](6.10.jpg)
 
-![delete](image/6.11.jpg)
+![delete](6.11.jpg)
 
 7. С помощью утилиты splint попробовала проанализировать коды файлов calculate.c и main.c.
 
-![splint calculate.c](image/7.1.jpg)
+![splint calculate.c](7.1.jpg)
 
-![splint main.c](image/7.2.jpg)
+![splint main.c](7.2.jpg)
  
 ## Вывод
 
